@@ -1,6 +1,7 @@
+// Criação da classe Node
 function Node(value) {
-    this.value = value;
-    this.next = null;
+    this.value = value;  // Atributo que guarda o valor que o nodo armazena
+    this.next = null;  // Atributo que guarda a referência para o próximo nodo na lista
 }
 // Definição da estrutura da LinkedList
 function LinkedList() {
