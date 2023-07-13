@@ -5,7 +5,7 @@ function Node(value) {
 }
 // Definição da estrutura da LinkedList
 function LinkedList() {
-    this.head = null;  // Inicializa o início (cabeça) da lista como nulo
+    this.head = null;  // Inicializa o início (ponta) da lista como nulo
     this.tail = null;  // Inicializa o final (cauda) da lista como nulo
 }
 
@@ -13,7 +13,7 @@ function LinkedList() {
 LinkedList.prototype.append = function(value) {
     var newNode = new Node(value);  // Cria um novo Node com o valor fornecido
 
-    // Se a lista está vazia, o novo nodo é tanto a cabeça quanto a cauda
+    // Se a lista está vazia, o novo nodo é tanto a ponta quanto a cauda
     if (!this.head) {
         this.head = newNode;
         this.tail = newNode;
