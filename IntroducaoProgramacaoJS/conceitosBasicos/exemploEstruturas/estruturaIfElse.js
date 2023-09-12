@@ -12,7 +12,7 @@ console.log(mensagem);
 
 
 
-let possuiCarteira = true;
+let possuiCarteira = false;
 
 if (idade >= 18) {
   console.log("Você é maior de idade.");

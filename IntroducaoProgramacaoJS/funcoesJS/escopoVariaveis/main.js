@@ -1,6 +1,6 @@
 // Exemplo usando const
 const PI = 3.14159;
-// PI = 90;
+ PI = 90;
 console.log(PI); // Saída: 3.14159
 // Erro: Tentando atribuir 
 // um novo valor a uma constante

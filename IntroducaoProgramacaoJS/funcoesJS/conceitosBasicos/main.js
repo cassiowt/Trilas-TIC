@@ -2,7 +2,7 @@ function nomeDaFuncao(parametro1, parametro2, parametroN) {
     // Corpo da função (bloco de código)
     // Instruções a serem executadas
     // Pode incluir declaração de variáveis, loops, condicionais, etc.
-    return 
+    return resultado
 }
 
 function velocidadeMedia(distancia, tempo) {
