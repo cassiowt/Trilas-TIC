@@ -25,9 +25,10 @@ console.log(primeiroElemento);  // Imprime "Morango"
 console.log(vetor);  // Imprime ["Maçã"]
 
 // Acessa um elemento do vetor pelo índice
-console.log(vetor[0]);  // Imprime "Maçã"
+console.log(vetor);  // Imprime "Maçã"
 
 // Modifica um elemento do vetor pelo índice
 vetor[0] = "Pêssego";  // vetor agora é ["Pêssego"]
-
-console.log(vetor);  // Imprime ["Pêssego"]
+vetor[1] = "Cacau";
+vetor.push("Alface");
+console.log(vetor)
