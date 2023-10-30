@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha de Cor</title>
+</head>
+<body>
+    <div id="colorBox" style="width: 100px; height: 100px; background-color: white;"></div>
+    <br>
+
+    <div id="buttonsContainer"></div>
+<!-- 
+    Esta div será preenchida dinamicamente
+    com os botões (ingles) das cores 
+-->
+
+    <button onclick="changeColor('red')">Vermelho</button>
+    <button onclick="changeColor('green')">Verde</button>
+    <button onclick="changeColor('blue')">Azul</button>
+    <button onclick="changeColor('yellow')">Amarelo</button>
+    <button onclick="changeColor('purple')">Roxo</button>
+    <button onclick="changeColor('orange')">Laranja</button>
+    <button onclick="changeColor('black')">Preto</button>
+    <script src="botoes1.js"></script>
+</body>
+</html>
+
+<!--
+    Quando a página é carregada (DOMContentLoaded), 
+    a função anônima é chamada.
+    
+    Nesta função, percorremos a lista colors com forEach.
+    
+    Para cada cor na lista, criamos um botão dinamicamente,
+    definimos seu texto para o nome da cor (com a primeira 
+    letra em maiúscula) e definimos um manipulador de clique
+    que chama a função changeColor com a cor selecionada.
+    
+    Depois, anexamos cada botão ao contêiner buttonsContainer.
+-->
