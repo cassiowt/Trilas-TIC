@@ -21,7 +21,7 @@ function selectionSort(arr) {
     return arr;
 }
 
-const listaDesordenada = [64, 34, 25, 12, 22, 11, 90];
+const listaDesordenada = [42, 8, 16, 15, 4, 23];
 const listaOrdenada = selectionSort(listaDesordenada);
 
 console.log("Lista ordenada: ", listaOrdenada);

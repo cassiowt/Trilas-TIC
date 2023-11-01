@@ -19,7 +19,7 @@ function bubbleSort(arr) {
     return arr;
 }
 
-const listaDesordenada = [64, 34, 25, 12, 22, 11, 90];
+const listaDesordenada = [42, 8, 16, 15, 4, 23];
 const listaOrdenada = bubbleSort(listaDesordenada);
 
 console.log("Lista ordenada: ", listaOrdenada);
