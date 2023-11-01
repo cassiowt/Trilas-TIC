@@ -10,4 +10,6 @@ try {
     console.log(resultado);
 } catch (error) {
     console.error("Ocorreu um erro:", error.message);
-}
+} finally {
+    console.log("Operação de divisão finalizada.");
+}}
