@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const colors = ["red", "green", "blue", "yellow", "purple", "orange", "black"];
+    const colors = ["red", "green", "blue", "yellow", "purple", "orange", "black", "gray"];
     const buttonsContainer = document.getElementById("buttonsContainer");
 
     colors.forEach(function(color) {

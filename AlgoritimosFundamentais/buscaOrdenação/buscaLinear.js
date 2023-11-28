@@ -7,7 +7,7 @@ function buscaLinear(arr, elemento) {
     return false; // Elemento não encontrado
 }
 
-const listaNumeros = [1, 3, 5, 7, 9, 11, 13];
+const listaNumeros = [7, 1, 3, 5, 9, 11, 13, 7];
 const numeroProcurado = 7;
 
 if (buscaLinear(listaNumeros, numeroProcurado)) {

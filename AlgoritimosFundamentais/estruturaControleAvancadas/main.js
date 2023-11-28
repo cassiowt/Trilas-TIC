@@ -6,7 +6,7 @@ function dividir(a, b) {
 }
 
 try {
-    const resultado = dividir(10, 0);
+    const resultado = dividir(10, 2);
     console.log(resultado);
 } catch (error) {
     console.error("Ocorreu um erro:", error.message);

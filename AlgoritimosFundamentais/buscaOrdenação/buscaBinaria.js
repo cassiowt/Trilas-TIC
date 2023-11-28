@@ -18,7 +18,7 @@ function buscaBinaria(arr, elemento) {
 }
 
 const listaOrdenada = [1, 3, 5, 7, 9, 11, 13];
-const numeroProcurado = 9;
+const numeroProcurado = 19;
 
 if (buscaBinaria(listaOrdenada, numeroProcurado)) {
     console.log(`O número ${numeroProcurado} foi encontrado na lista.`);
